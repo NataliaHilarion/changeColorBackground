@@ -11,6 +11,7 @@ $btn.addEventListener("click", function(){
 
   document.body.style.backgroundColor = hexColor
   $color.textContent = hexColor
+  $color.style.color = hex
 
 })
 
